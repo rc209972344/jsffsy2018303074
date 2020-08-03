@@ -1,7 +1,10 @@
+#ifndef QUESTION5_H
+#define QUESTION5_H
 #include <iostream>
 #include <cmath>
-//#include"Matrix.cpp"
+//#include "Matrix.cpp"
 using namespace std;
+
 void question5(){
     int functiontype = 1;
     cout<<"请输入数字选择拟合函数："<<endl;
@@ -124,3 +127,5 @@ void question5(){
         };
     } 
  }
+
+ #endif
