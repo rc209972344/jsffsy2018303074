@@ -1,8 +1,12 @@
+#ifndef QUESTION4_H
+#define QUESTION4_H
 #include <iostream>
 #include <cmath>
-//#include"Matrix.cpp"
+//#include "Matrix.cpp"
 using namespace std;
 const double MINIUM = 1e-8;//小于10^(-10)置零
+
+//由于不提供收敛性判断、无法计算复数解等原因，高阶（5阶以上）方阵可能无法求解
 void question4()
 {
     //数据输入
@@ -104,3 +108,5 @@ void question4()
         Qi.printmatrix();
     }
 }
+
+#endif
