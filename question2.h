@@ -1,8 +1,11 @@
+#ifndef QUESTION2_H
+#define QUESTION2_H
 #include <iostream>
 #include <cmath>
 #include <ctime>
-//#include"Matrix.cpp"
+//#include "Matrix.cpp"
 using namespace std;
+
 void question2(){
     //输入数据
     cout<<"请输入增广矩阵的行数和列数,其中系数矩阵须为方阵:"<<endl;
@@ -85,4 +88,7 @@ void question2(){
     for(int i = 0; i<r; i++){
         cout<<"x"<<i+1<<" = "<<seidel[i][i]<<endl;
     }
+
 }
+
+#endif
