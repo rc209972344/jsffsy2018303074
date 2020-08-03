@@ -1,7 +1,10 @@
+#ifndef QUESTION3_H
+#define QUESTION3_H
 #include <iostream>
 #include <cmath>
-//#include"Matrix.cpp"
+//#include "Matrix.cpp"
 using namespace std;
+
 void question3(){
     //数据输入
     cout<<"请输入增广矩阵的行数和列数,其中系数矩阵须为方阵:"<<endl;
@@ -32,3 +35,5 @@ void question3(){
         cout<<"x"<<i+1<<" = "<<x[i]<<endl;
     }
 }
+
+#endif
