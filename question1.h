@@ -1,8 +1,11 @@
+#ifndef QUESTION1_H
+#define QUESTION1_H
 #include <iostream>
 #include <cmath>
-//#include"Matrix.cpp"
-#include"picture.cpp"
+//#include "Matrix.cpp"
+#include "picture.h"
 using namespace std;
+
 void question1(){
     int functiontype = 1;
     cout<<"请输入数字选择拟合函数："<<endl;
@@ -333,3 +336,5 @@ void question1(){
         };
     } 
  }
+ 
+#endif
