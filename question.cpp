@@ -1,11 +1,12 @@
 #include <iostream>
 #include"Matrix.cpp"
-#include"question1.cpp"
-#include"question2.cpp"
-#include"question3.cpp"
-#include"question4.cpp"
-#include"question5.cpp"
+#include"question1.h"
+#include"question2.h"
+#include"question3.h"
+#include"question4.h"
+#include"question5.h"
 using namespace std;
+
 int main()
 {
     char question = 'a';
