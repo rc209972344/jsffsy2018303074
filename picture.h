@@ -1,7 +1,10 @@
+#ifndef PICTURE_H
+#define PICTURE_H
 #include <iostream>
 #include <cmath>
 #include<fstream>
 using namespace std;	
+
 void function1fig(double a0,double a1,double left,double bottom,double stepx,double stepy){
     fstream f1f;
     f1f.open("picture1.txt",ios::out);
@@ -102,3 +105,5 @@ void function5fig(double a0,double a1,double left,double bottom,double stepx,dou
     }
     f5f.close();
 }
+
+#endif
